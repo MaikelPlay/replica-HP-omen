@@ -1,0 +1,169 @@
+
+*{
+    box-sizing: border-box; /*IMPORTANTE, para que no se sumen los margenes, es decir, para que no aparezca la barra desplazadora porque se suman los margenes a un 100%*/
+}
+
+body{
+    width:100%;
+    margin:0; /* Para no tener margenes por defecto */
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+    overflow-x:hidden; /*Para eliminar la barra de scroll */
+   
+}
+
+header{
+    width:100%;  
+    height: 100px;
+    /*position: fixed;
+    z-index: 999; 
+    top:0;
+    Para fijar el header, en este caso no quedaría estético*/
+  
+}
+.contlogo{
+    width: 100%;
+    background-color: white;
+    padding: 0.5em 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 55px;  
+    height: 55px;  
+   
+}
+
+.logo img{
+    width: 100%;
+}
+
+.bi-headset, .bi-person, .bi-cart2{
+
+    color: rgb(132, 132, 132);
+}
+
+
+nav {
+    background-color:#eeeeee;
+
+}
+
+nav ul{
+    display:flex;
+    list-style: none;
+    justify-content: flex-start;
+    margin:0;
+
+}
+
+nav ul li{
+	color: white;
+	display: inline;
+	margin: 10px 25px;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+nav ul li a {
+	color:rgb(28, 27, 27);
+    text-decoration: none;
+    transition: all 0.5s;
+}	
+
+nav ul li a:hover {
+	color:rgb(0 151 215);
+    text-decoration:underline;
+    transition: all 0.5s;
+    /*transform: scale 1.10 para agrandar el texto*/
+}	
+
+main {
+    display: flex;
+    margin: 2em 5em;
+
+}
+
+.informacion{
+    margin-left: 3em;
+    
+}
+
+.precio{
+    color:rgb(195, 4, 39);
+    font-weight: bold;
+    font-size:x-large;
+}
+
+.carrito{
+    border: none;
+    background-color:rgb(12, 83, 214);
+    padding: 1em 3em;
+    border-radius: 4px;
+    opacity:1 ;
+    transition: all 0.5s; 
+}
+
+.carrito a{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.carrito:hover{
+    opacity:0.8;
+    transition: all 0.5s;
+}
+
+.fondo2 {
+    width: 100%;
+    background-color: #eeeeee;
+   padding: 2em 3em;
+}
+
+table {
+    font-size: large;
+}
+
+h3 {font-weight: 300;
+    color: rgb(195, 4, 39);}
+
+#pro, #mem, #disco, #pant, #tarj {
+    border-bottom: 1px solid gray;
+}
+
+#hub {
+    display: flex;
+}
+
+.textohub{
+width: 60%;
+}
+
+.imghub{
+    width: 40%;
+    padding: 2em 2em;
+}
+
+.imghub img {
+    width: 90%;
+}
+
+.p{
+    line-height: 26px;
+}
+
+.pdf a{
+color: rgb(12, 83, 214);
+font-weight: 700;
+text-decoration: none;
+
+}
+
+.pdf a:hover {
+    color: rgb(11, 61, 156);
+    transition: all 0.5s; 
+    text-decoration: underline;
+}

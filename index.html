@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="shortcut icon" href="img/logo.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hp Omen</title>
+    <link rel="stylesheet" type = "text/css" href="style/ordenador.css">
+    <link rel="stylesheet" href="style/carrusel.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>        
+    <div class="contlogo">       
+    <div class="logo">
+        <img src="img/logo.png" alt="logo">
+    </div>
+    <div class="icons">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-headset" viewBox="0 0 16 16">
+            <path d="M8 1a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a6 6 0 1 1 12 0v6a2.5 2.5 0 0 1-2.5 2.5H9.366a1 1 0 0 1-.866.5h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 .866.5H11.5A1.5 1.5 0 0 0 13 12h-1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1V6a5 5 0 0 0-5-5"/>
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+            <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664z"/>
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
+            <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"/>
+          </svg>
+
+
+    </div>
+    </div>
+    
+    <nav>
+        <ul>
+            <!---class="active" para dejarlo marcado con un color, luego poner en css li a.active {color: ""}-->
+            <li><a href="#pro">Procesador</a></li>
+            <li><a href="#mem">Memoria Ram</a></li>
+            <li><a href="#disco">Disco Duro</a></li>
+            <li><a href="#pant">Pantalla</a></li>
+            <li><a href="#tarj">Tarjeta Gráfica</a></li>
+            <li><a href="#hub">Hp Gaming Hub</a></li>
+        </ul>
+    </nav>
+    </header>
+    <main>
+    <div class="carrusel">
+        <div class="ContainerCenter">
+            <!-- Radio Seleccionar -->
+            <input type="radio" name="Carrusel" id="Slider1" checked>
+            <input type="radio" name="Carrusel" id="Slider2">
+            <input type="radio" name="Carrusel" id="Slider3">
+            
+            <div class="Carrusels">
+              <!-- Imagen contenido -->
+              <div class="Carrusel" style="background-image: url(img/foto0.jpg);"></div> 
+              <div class="Carrusel" style="background-image: url(img/foto1.jpg);"></div>
+              <div class="Carrusel" style="background-image: url(img/foto7.jpg);"></div>
+              
+              <!-- Flechas a la izquierda por cada imagen -->
+              <label for="Slider3" class="ArrowLeft Arrow1">❮</label>
+              <label for="Slider1" class="ArrowLeft Arrow2">❮</label>
+              <label for="Slider2" class="ArrowLeft Arrow3">❮</label>
+              
+              <!-- Flechas a la derecha por cada imagen -->
+              <label for="Slider2" class="ArrowRight Arrow1">❯</label> 
+              <label for="Slider3" class="ArrowRight Arrow2">❯</label>
+              <label for="Slider1" class="ArrowRight Arrow3">❯</label>
+            </div>
+            
+            <!-- Selector circulos inferiores colgantes -->
+            <div class="Selectors">
+              <label for="Slider1" class="Selector"></label>
+              <label for="Slider2" class="Selector"></label>
+              <label for="Slider3" class="Selector"></label>
+            </div>
+        </div>
+    </div>
+    <div class="informacion">
+        <h1>Portátil gaming OMEN 16-wf0008ns con Intel® Core™ i7 13.ª gen, NVIDIA® GeForce RTX™ 4080 (12 GB) con auriculares HyperX</h1>
+        <p>Gaming Pro. Para los juegos de deportes y tripe AAA, este portátil te ofrece todo lo que necesitas para controlarlo todo con nuestro OMEN Gaming Hub.</p>
+        <p><span class="precio">2 398,99€</span> Con IVA*</p>
+        <button class="carrito">
+            <a href="">AÑADIR AL CARRITO</a>
+        </button>
+        <br>
+        <br>
+        <hr>
+         <p class="p"><strong>SISTEMA OPERATIVO</strong> | Windows 11 Home<br>
+            <strong>PROCESADOR</strong> | Intel® Core™ i7 13700HX (13.ª generación)<br>
+            <strong>MEMORIA RAM</strong> | 32 GB RAM<br>
+            <strong>DISCO DURO</strong> | 2 TB SSD<br>
+            <strong>PANTALLA</strong> | 16,1" (40,9 cm), QHD (2560 x 1440), 240 Hz, 3 ms response time<br>
+            <strong>TARJETA GRÁFICA</strong> | NVIDIA® GeForce RTX™ 4080 (12 GB)</p>
+    </div>
+    </main>
+    <div class="fondo2">
+    <div id="pro">
+            <br>
+            <table>
+                <h3>PROCESADOR<h3>
+                <tr>
+                    <td><strong>Familia del procesador</strong></td>
+                    <td width="100px"></td>
+                    <td>Procesador Intel® Core™ i7 de 13.ª generación</td>
+                </tr> 
+                <tr height="20px"></tr>
+                <tr>
+                    <td><strong>Procesador</strong></td>
+                    <td width="100px"></td>
+                    <td>Intel® Core™ i7-13700HX (hasta 5,0 GHz con tecnología Intel® Turbo Boost, 30 MB de caché L3, 16 núcleos, 24 subprocesos)</td>
+                </tr>
+                <tr height="20px"></tr>
+                <tr>
+                    <td><strong>Conjunto de chips</strong></td>
+                    <td width="100px"></td>
+                    <td>Intel® HM770</td>
+                </tr>                 
+                <tr height="20px"></tr>
+            </table>
+    </div>
+    <div id="mem">
+        <br>
+        <table>
+            <h3>MEMORIA RAM<h3>
+            <tr>
+                <td><strong>Memoria, estándar</strong></td>
+                <td width="100px"></td>
+                <td>RAM 32 GB DDR5-4800 MHz (2 x 16 GB)</td>
+            </tr> 
+            <tr height="20px"></tr>
+            <tr>
+                <td><strong>Nota sobre la memoria</strong></td>
+                <td width="100px"></td>
+                <td>Velocidades de transferencia de hasta 4800 MT/s.</td>
+            </tr>
+            <tr height="20px"></tr>
+            <tr>
+                <td><strong>Diseño de memoria</strong></td>
+                <td width="100px"></td>
+                <td>2 x 16 GB</td>
+            </tr>                 
+            <tr height="20px"></tr>
+        </table>
+    </div>
+    <div id="disco">
+        <br>
+        <table>
+            <h3>DISCO DURO<h3>
+            <tr>
+                <td><strong>Unidad de disco duro </strong></td>
+                <td width="110px"></td>
+                <td>SSD M.2 2 TB PCIe® Gen4 NVMe™ TLC</td>
+            </tr> 
+            <tr height="20px"></tr>
+            <tr>
+                <td><strong>Servicios en la nube</strong></td>
+                <td width="100px"></td>
+                <td>Almacenamiento en Dropbox de 25 GB durante 12 meses</td>
+            </tr>
+            <tr height="20px"></tr>           
+        </table>
+    </div>
+    <div id="pant">
+        <br>
+        <table>
+            <h3>PANTALLA<h3>
+            <tr>
+                <td><strong>Pantalla</strong></td>
+                <td width="117px"></td>
+                <td>QHD (2560 x 1440) de 16,1" (40,9 cm), 240 Hz, tiempo de respuesta de 3 ms, IPS, microborde, antirreflectante, Low Blue Light, 300 nits, 100 % sRGB</td>
+            </tr> 
+            <tr height="20px"></tr>
+            <tr>
+                <td><strong>Antiparpadeo</strong></td>
+                <td width="100px"></td>
+                <td>Sí</td>
+            </tr>
+            <tr height="20px"></tr>
+            <tr>
+                <td><strong>Relación de aspecto</strong></td>
+                <td width="100px"></td>
+                <td>16:9</td>
+            </tr>                 
+            <tr height="20px"></tr>
+            <tr>
+                <td><strong>Relación pantalla</strong></td>
+                <td width="100px"></td>
+                <td>83.17%</td>
+            </tr>                 
+            <tr height="20px"></tr>
+        </table>
+    </div>
+    <div id="tarj">
+        <br>
+        <table>
+            <h3>TARJETA GRÁFICA<h3>
+            <tr>
+                <td><strong>Gráficos</strong></td>
+                <td width="144px"></td>
+                <td>GPU de portátil NVIDIA® GeForce RTX™ 4080 (GDDR6 de 12 GB dedicada)</td>
+            </tr> 
+            <tr height="20px"></tr>
+            <tr>
+                <td><strong>Nota de gráficos</strong></td>
+                <td width="100px"></td>
+                <td>Advanced Optimus</td>
+            </tr>
+            <tr height="20px"></tr>  
+        </table>
+    </div>
+    <div id="hub">
+        <br>
+           
+        <div class="textohub">
+            <br> 
+            <h3>HP GAMING HUB</h3>
+            <h4><strong>Light Studio</strong></h4>    
+            <p>Coordina tu configuración cromática</p>
+            <hr>
+            <p>Ahora podrás sincronizar fácilmente los efectos de iluminación en todos tus dispositivos OMEN. Desde animaciones lumínicas que tienen en cuenta el espacio hasta efectos interactivos, las posibilidades de personalización son infinitas.</p>
+            <br> 
+            <h4><strong>Control del rendimiento</strong></h4>   
+            <p>Elige tu propio rendimiento</p>    
+            <hr>
+            <p>No siempre necesitamos que nuestro ordenador esté listo para la batalla. Elige entre distintos modos de rendimiento para adaptarte a cualquier situación que se presente.</p>        
+        </div> 
+        <div class="imghub"><img src="img/omen-16-black-45-homepage@2x.png" alt="hub"></div>    
+    </div>
+    <p>Ver más detalles:</p>
+    <div class="pdf"><a href="pdf/info.pdf" target="_blank">OMEN GAMING LAPTOP 16-WF0008NS <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-filetype-pdf" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M14 4.5V14a2 2 0 0 1-2 2h-1v-1h1a1 1 0 0 0 1-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5zM1.6 11.85H0v3.999h.791v-1.342h.803c.287 0 .531-.057.732-.173.203-.117.358-.275.463-.474a1.42 1.42 0 0 0 .161-.677c0-.25-.053-.476-.158-.677a1.176 1.176 0 0 0-.46-.477c-.2-.12-.443-.179-.732-.179Zm.545 1.333a.795.795 0 0 1-.085.38.574.574 0 0 1-.238.241.794.794 0 0 1-.375.082H.788V12.48h.66c.218 0 .389.06.512.181.123.122.185.296.185.522Zm1.217-1.333v3.999h1.46c.401 0 .734-.08.998-.237a1.45 1.45 0 0 0 .595-.689c.13-.3.196-.662.196-1.084 0-.42-.065-.778-.196-1.075a1.426 1.426 0 0 0-.589-.68c-.264-.156-.599-.234-1.005-.234H3.362Zm.791.645h.563c.248 0 .45.05.609.152a.89.89 0 0 1 .354.454c.079.201.118.452.118.753a2.3 2.3 0 0 1-.068.592 1.14 1.14 0 0 1-.196.422.8.8 0 0 1-.334.252 1.298 1.298 0 0 1-.483.082h-.563v-2.707Zm3.743 1.763v1.591h-.79V11.85h2.548v.653H7.896v1.117h1.606v.638H7.896Z"/>
+      </svg></a></div>
+    </div>
+    
+    
+</body>
+</html>
