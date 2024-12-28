@@ -1,2 +1,5 @@
 # replica-HP-omen
-Sitio web creado con HTML y CSS. Se trata de una réplica de la página web de HP del portátil HP Omen 16-wf0008ns
+<br>
+
+![img1](https://github.com/user-attachments/assets/eda802d5-b6eb-4c45-bd6d-351f615a191d)
+
